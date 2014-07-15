@@ -201,10 +201,23 @@ ruby environment setup</p>
 <pre class="highlight text">gem install bundler
 bundle install
 </pre>
+<h3 id="checking-out-the-website">Checking out the website</h3>
+
+<p>Checkout the website from SVN:</p>
+<pre class="highlight text">svn co https://svn.apache.org/repos/asf/incubator/parquet
+</pre>
+<h3 id="make-changes-in-source/">Make changes in source/</h3>
+
+<p>Make any changes in the source directory:</p>
+<pre class="highlight text">cd site/source/
+vim contribute.html.md
+</pre>
 <h3 id="generating-the-website">Generating the website</h3>
 
-<p>To generate the static wesbite for Apache Parquet run the following commands</p>
+<p>To generate the static wesbite for Apache Parquet run the following commands at the root site directory:</p>
 <pre class="highlight text">bundle exec middleman build
+svn add *
+svn commit -m &#39;made changes to the site&#39;
 </pre>
 <h3 id="live-development">Live Development</h3>
 

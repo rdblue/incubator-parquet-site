@@ -88,10 +88,23 @@ ruby environment setup
 	gem install bundler
 	bundle install
 
+### Checking out the website
+Checkout the website from SVN:
+
+	svn co https://svn.apache.org/repos/asf/incubator/parquet
+
+### Make changes in source/
+Make any changes in the source directory:
+
+	cd site/source/
+	vim contribute.html.md
+
 ### Generating the website
-To generate the static wesbite for Apache Parquet run the following commands
+To generate the static wesbite for Apache Parquet run the following commands at the root site directory:
 
 	bundle exec middleman build
+	svn add *
+	svn commit -m 'made changes to the site'
 
 ### Live Development 
 Live development of the site enables automatic reload when changes are saved. 
