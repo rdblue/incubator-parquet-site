@@ -19,6 +19,8 @@
           	<h3>Stay in Touch</h3>
                 <p>Attend a Parquet <a href="https://plus.google.com/events/c36apc97f7invko9p128hq9e6b8">sync up meeting</a> via Google Hangouts.</p>
 
+		<h3>Bylaws</h3>
+    <p><a href="/bylaws/">Parquet community bylaws</a></p>
 	</div>
 	<div class="col-lg-6">
 
